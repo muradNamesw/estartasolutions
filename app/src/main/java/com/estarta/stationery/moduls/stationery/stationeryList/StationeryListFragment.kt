@@ -61,7 +61,7 @@ class StationeryListFragment : BaseFragment<FragmentStationeryListBinding>() {
         })
     }
 
-
+//
     /**
     // on below line we are create and add
     // a function create recycle view and  add item (Stationery)
