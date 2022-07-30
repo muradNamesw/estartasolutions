@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/radius_button.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_button_blue.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_button_blue_8.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_button_gray_filter.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_button_red.xml" value="0.254" />
+        <entry key="app/src/main/res/drawable-v24/radius_button_yellow.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_button_yellow_8.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_text_field.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_text_field_login.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_text_field_white80.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable-v24/radius_text_gray.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/custom_date_view.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/custom_radius.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/custom_radius_gray.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/table_border.xml" value="0.222" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.18115942028985507" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/activity_old_login.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_stationery.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.27355072463768115" />
+        <entry key="app/src/main/res/layout/brand_fragment.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/cadence_info_fragment.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/chart_fragment.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/comments_fragment.xml" value="0.18115942028985507" />
+        <entry key="app/src/main/res/layout/customer_management_item.xml" value="0.27853260869565216" />
+        <entry key="app/src/main/res/layout/dialog_customer_management.xml" value="0.27853260869565216" />
+        <entry key="app/src/main/res/layout/dialog_lookup_management.xml" value="0.27355072463768115" />
+        <entry key="app/src/main/res/layout/dialog_stg_hardware_service.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/dialog_stg_license_service.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/dialog_swg_license_service.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/dialog_swg_service.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/dialog_user_management.xml" value="0.27853260869565216" />
+        <entry key="app/src/main/res/layout/filter_dialog.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/filter_opportinity_dialog.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/fragment_add_opportunity.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_lookup_management.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.27355072463768115" />
+        <entry key="app/src/main/res/layout/fragment_old_main.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_old_welcome.xml" value="0.18115942028985507" />
+        <entry key="app/src/main/res/layout/fragment_opportunity.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_stationery_description.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_stationery_list.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/fragment_test.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_user_management.xml" value="0.27853260869565216" />
+        <entry key="app/src/main/res/layout/include_hardware_stg_license.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/include_service_stg_license.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/include_summary_stg_license.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/include_summary_stg_service.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/include_summary_swg_license.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/include_summary_swg_service.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/include_summary_total.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/include_swg_all.xml" value="0.18115942028985507" />
+        <entry key="app/src/main/res/layout/item_stationery_list_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/lookup_management_item.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/opportunity_item.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/progerss_old_bar.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/sector_fragment.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/slider_item.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/layout/state_old_empty_list.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/state_old_error_list.xml" value="0.134375" />
+        <entry key="app/src/main/res/layout/state_old_loading_list.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/summary_fragment.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/summary_main_fragment.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/swg_stg_fragment.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/table_row_layout.xml" value="0.18115942028985507" />
+        <entry key="app/src/main/res/layout/user__management_item.xml" value="0.27853260869565216" />
+        <entry key="app/src/main/res/layout/user_management_item.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.222" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

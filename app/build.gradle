@@ -1,0 +1,164 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+
+    signingConfigs {
+        debug {
+
+        }
+    }
+    compileSdkVersion 32
+    defaultConfig {
+        applicationId "com.estarta.stationery"
+        minSdkVersion 22
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            resValue("string", "PORT_NUMBER", "8081")
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.android.material:material:1.0.0'
+//    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+//    implementation(project(':SA')) {transitive = true}
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    implementation 'androidx.test.ext:junit-ktx:1.1.3'
+    implementation 'androidx.test:runner:1.4.0'
+//    implementation 'com.google.firebase:firebase-firestore-ktx:24.0.1'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:design:32.0.0'
+    implementation 'com.android.support:multidex:2.0.1'
+    implementation 'com.github.ibrahimsn98:android-live-broadcasts:1.0'
+
+    implementation 'com.google.android.gms:play-services:11.8.0'
+    //Recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    //Constraint
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    //Appcompat
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+
+    //Koin
+    implementation "androidx.core:core-ktx:$androidXCore"
+    implementation "org.koin:koin-android:$koin_version"
+    implementation "org.koin:koin-androidx-viewmodel:$koin_version"
+
+    // Coroutine
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    implementation "com.squareup.moshi:moshi-kotlin:$moshi"
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$retrofit_coroutine_adapter"
+    implementation 'androidx.room:room-ktx:2.2.1'
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'org.junit.jupiter:junit-jupiter'
+    kapt "androidx.room:room-compiler:2.2.1"
+    // Network image loader
+    implementation "com.squareup.picasso:picasso:$picasso"
+
+    // room
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    // Lifecycle
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+
+    // OKHttp
+    implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:$okHttpVersion"
+
+    //Glide
+    implementation "com.github.bumptech.glide:glide:$versions_glide"
+    implementation "com.github.bumptech.glide:compiler:$versions_glide"
+    implementation "jp.wasabeef:glide-transformations:$versions_glide_transformation"
+    annotationProcessor "com.github.bumptech.glide:compiler:$versions_glide"
+//Alphabetik
+    implementation 'com.github.richimf:Alphabetik:1.0.3'
+    //google maps
+//    implementation 'com.google.android.gms:play-services-maps:11.8.0'
+//    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    implementation files('libs/core-3.1.0.jar')
+
+    implementation "androidx.work:work-runtime-ktx:2.7.1"
+
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.1'
+
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.6'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation "androidx.room:room-runtime:2.3.0"
+    annotationProcessor "androidx.room:room-compiler:2.3.0"
+
+    //sunmi remote dependency, connect to the inbuilt print service
+    implementation 'com.sunmi:printerlibrary:1.0.8'
+
+    // list search view
+
+    implementation 'com.github.ajithvgiri:search-dialog:v1.5'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+
+
+    // dependency for slider view
+    implementation 'com.github.smarteist:autoimageslider:1.3.9'
+
+// dependency for loading image from url
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+
+    testImplementation "junit:junit:4.13"
+    testImplementation "com.squareup.okhttp3:mockwebserver:4.7.2"
+    testImplementation "org.mockito:mockito-core:3.3.3"
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.2"
+    androidTestImplementation "androidx.test.ext:junit:1.1.2"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.3.0"
+}

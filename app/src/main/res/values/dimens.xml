@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_margin">3</dimen>
+    <dimen name="item_height">38dp</dimen>
+    <dimen name="item_width">38dp</dimen>
+    <dimen name="item_small_height">24dp</dimen>
+    <dimen name="item_small_width">24dp</dimen>
+    <dimen name="item_text_size">12sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+
+
+    <string name="app_name">Cadence Spm</string>
+    <string name="no_item_found_empty_list">no_item_found_empty_list</string>
+    <string name="retry">retry</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="failed_load_data">failed_load_data</string>
+    <string name="created_at_item_stationery_list_fragment">Created at</string>
+    <string name="name_item_stationery_list_fragment">Name</string>
+    <string name="price_item_stationery_list_fragment">Prioce</string>
+    <string name="details_item_stationery_list_fragment">Details</string>
+
+
+</resources>
