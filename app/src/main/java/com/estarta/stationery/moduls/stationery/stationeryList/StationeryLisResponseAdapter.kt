@@ -136,6 +136,12 @@ class ClickHandlerStationeryLisResponseAdapter(
     var stationeryListFragment: StationeryListFragment,
     var stationeryModel: StationeryListModel?
 ) {
+
+    /**
+
+    open a new screen to display the details of that listing
+
+     */
     fun onTextViewClick(view: View) {
         stationeryListFragment.addFragment(
             StationeryDescriptionFragment.newInstance(stationeryModel), R.id.fragment_container_stationery, true

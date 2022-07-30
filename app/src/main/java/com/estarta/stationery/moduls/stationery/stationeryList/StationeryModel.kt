@@ -1,6 +1,12 @@
 package com.estarta.stationery.moduls.stationery.stationeryList
 
 
+
+/**
+// on below line we are return
+// a function return parameters
+ */
+
 data class StationeryListModel  (
       var created_at: String,
       var price: String,

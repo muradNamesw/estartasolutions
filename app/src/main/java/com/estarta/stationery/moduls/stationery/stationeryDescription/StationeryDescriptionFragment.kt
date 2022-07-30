@@ -11,6 +11,14 @@ import com.estarta.stationery.utils.Constants
 import kotlinx.android.synthetic.main.fragment_stationery_description.*
 
 
+
+
+/**
+
+the  screen to display the details of that listing
+
+ */
+
 class StationeryDescriptionFragment :  BaseFragment<FragmentStationeryDescriptionBinding>() {
 
 

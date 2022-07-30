@@ -12,6 +12,12 @@ import kotlinx.android.synthetic.main.fragment_stationery_list.*
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 
+
+
+/**
+The app should display a list of listings. This screen should be the homepage of the app.
+ */
+
 class StationeryListFragment : BaseFragment<FragmentStationeryListBinding>() {
 
 
